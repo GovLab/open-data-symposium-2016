@@ -6922,3 +6922,6 @@ h2 {
 .b-button, .b-form input[type="submit"] {
   display: inline-block;
   padding: 2% 10%; }
+
+#list {
+  padding: 0px 20%; }
