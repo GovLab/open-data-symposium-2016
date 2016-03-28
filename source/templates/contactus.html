@@ -1,9 +1,26 @@
 {% extends '_base.html' %}
 {% block main %}
+<div class="b-divider m-purple">
+    <h2>ABOUT</h2>
+</div>
+<section id="intro-p" class="b-slide m-orange">
+  <header>
+    <h4>Contact Us</h4>
+  </header>
+    <div class="row e-content">
+        <div class="large-12 column">
+          <h3><p>Send us any additional questions or comments:</p></h3>
+          <form action="https://formspree.io/chris@thegovlab.org"
+      method="POST" class="b-form">
+            <input type="text" id="name" name="name" placeholder="Name" />
+            <input type="email" id="mail" name="_replyto" placeholder="Email" />
+            <textarea id="msg" placeholder="Message"></textarea>
+            <a href="#" input type="submit" value="Send" class="b-button">Send<i class="material-icons">send</i></a>
+          </form>
+        </div>
+        </div>
+</section>
 
-<h2>hello</h2>
-
-<h2>Contact Us</h2>
 
 
 {% endblock %}
