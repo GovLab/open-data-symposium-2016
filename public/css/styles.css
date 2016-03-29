@@ -6925,3 +6925,6 @@ h2 {
 
 #list {
   padding: 0px 20%; }
+
+iframe:focus {
+  outline: none; }
