@@ -6919,12 +6919,12 @@ code.m-negative {
 h2 {
   text-align: center; }
 
+.navigation-bar {
+  padding: 10px; }
+
 .b-button, .b-form input[type="submit"] {
   display: inline-block;
-  padding: 2% 10%; }
+  padding: 1.5% 10%; }
 
 #list {
   padding: 0px 20%; }
-
-iframe:focus {
-  outline: none; }
