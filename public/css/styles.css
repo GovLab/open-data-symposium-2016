@@ -6919,6 +6919,11 @@ code.m-negative {
 h2 {
   text-align: center; }
 
+.odrs-logo {
+  height: 50%;
+  width: 60%;
+  margin: 0 auto; }
+
 .navigation-bar {
   padding: 10px; }
 
@@ -6935,6 +6940,3 @@ iframe {
 
 .od4d-logo {
   margin-top: -30px; }
-
-.google-form::-moz-placeholder {
-  color: #008895; }
