@@ -6935,3 +6935,6 @@ iframe {
 
 .od4d-logo {
   margin-top: -30px; }
+
+.google-form::-moz-placeholder {
+  color: #008895; }
