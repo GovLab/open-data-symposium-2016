@@ -10,9 +10,7 @@ $yellow: hsla(50, 71, 62, 1);
 .m-yellow { background-color: $yellow; }
 .m-green { background-color: $green; }
 
-.b-page-section.m-green > * {
-  color: white;
-}
+.b-page-section.m-green > * { color: white; }
 
 .b-divider.m-yellow {
   h1 { color: darken($yellow, 32); }
@@ -36,6 +34,8 @@ $yellow: hsla(50, 71, 62, 1);
 }
 
 .b-footer {
+  background-color: darken($dark-blue, 3);
+
   h2 {
     font-size: 20px;
     text-align-last: center;

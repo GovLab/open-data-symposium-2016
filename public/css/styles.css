@@ -6949,23 +6949,22 @@ code.m-negative {
 .b-top-nav .e-logo img {
   height: 36px; }
 
-.b-footer h2 {
-  font-size: 20px;
-  text-align-last: center;
-  color: rgba(255, 255, 255, 0.2);
-  font-weight: 600;
-  margin: 0 0 30px 0; }
-
-.b-footer .column, .b-footer .columns {
-  text-align: center; }
-
-.b-footer .e-partner-logo {
-  max-width: 200px;
-  padding: 20px;
-  opacity: .8; }
-
-.b-footer .m-od4d {
-  margin-top: -10px; }
+.b-footer {
+  background-color: #1f2f3d; }
+  .b-footer h2 {
+    font-size: 20px;
+    text-align-last: center;
+    color: rgba(255, 255, 255, 0.2);
+    font-weight: 600;
+    margin: 0 0 30px 0; }
+  .b-footer .column, .b-footer .columns {
+    text-align: center; }
+  .b-footer .e-partner-logo {
+    max-width: 200px;
+    padding: 20px;
+    opacity: .8; }
+  .b-footer .m-od4d {
+    margin-top: -10px; }
 
 .b-copyright {
   font-weight: 300; }
