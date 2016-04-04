@@ -6916,6 +6916,24 @@ code.m-negative {
   .sandbox {
     background-color: blue; } }
 
+.m-dark-blue {
+  background-color: #243747; }
+
+.m-yellow {
+  background-color: #e3cc59; }
+
+.m-green {
+  background-color: #47a6b3; }
+
+.b-divider.m-yellow h1 {
+  color: #837116; }
+
+.b-divider.m-yellow h2 {
+  color: #837116; }
+
+.b-divider.m-yellow h3 {
+  color: #837116; }
+
 .b-top-nav .e-social-media img {
   max-height: 16px; }
 
@@ -6935,6 +6953,9 @@ code.m-negative {
   font-weight: 600;
   margin: 0 0 30px 0; }
 
+.b-footer .column, .b-footer .columns {
+  text-align: center; }
+
 .b-footer .e-partner-logo {
   max-width: 200px;
   padding: 20px;
@@ -6945,3 +6966,32 @@ code.m-negative {
 
 .b-copyright {
   font-weight: 300; }
+
+.event-logo {
+  text-align: center; }
+  .event-logo img {
+    max-width: 600px; }
+
+.google-form .freebirdFormviewerViewItemsItemItemTitle {
+  display: none; }
+
+.b-form.m-negative h4 {
+  font-style: italic;
+  font-weight: 100;
+  text-align: center;
+  text-transform: none;
+  color: white; }
+
+.b-form.m-negative h3 {
+  color: white;
+  text-align: center;
+  margin-bottom: 30px; }
+
+.b-form.m-negative .b-button, .b-form.m-negative input[type="submit"] {
+  color: white; }
+
+.b-form textarea {
+  min-height: 180px; }
+
+.b-divider h3 {
+  text-align: center; }
