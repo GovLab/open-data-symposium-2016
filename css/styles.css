@@ -6925,6 +6925,9 @@ code.m-negative {
 .m-green {
   background-color: #47a6b3; }
 
+.b-page-section.m-green > * {
+  color: white; }
+
 .b-divider.m-yellow h1 {
   color: #837116; }
 
@@ -6993,5 +6996,23 @@ code.m-negative {
 .b-form textarea {
   min-height: 180px; }
 
-.b-divider h3 {
+.b-divider h3,
+.b-divider .e-button-container {
   text-align: center; }
+
+.b-page-section > h2 {
+  text-align: center; }
+
+.b-committee ul {
+  padding: 0; }
+
+.b-committee li {
+  list-style-type: none;
+  margin-bottom: 15px;
+  color: rgba(51, 51, 51, 0.6); }
+  .b-committee li strong {
+    color: rgba(51, 51, 51, 0.9);
+    display: block; }
+
+#overlay {
+  background-color: transparent; }
