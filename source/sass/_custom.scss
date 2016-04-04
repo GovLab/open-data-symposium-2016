@@ -1,4 +1,22 @@
+// colors
 
+$dark-blue: hsla(207, 33, 21, 1);
+$green: hsla(187, 43, 49, 1);
+$yellow: hsla(50, 71, 62, 1);
+
+// Color modifiers
+
+.m-dark-blue { background-color: $dark-blue; }  
+.m-yellow { background-color: $yellow; }
+.m-green { background-color: $green; }
+
+.b-divider.m-yellow {
+  h1 { color: darken($yellow, 32); }
+  h2 { color: darken($yellow, 32); }
+  h3 { color: darken($yellow, 32); }
+}
+
+// Custom Style for _base
 
 .b-top-nav {
   .e-social-media {
@@ -22,6 +40,10 @@
     margin: 0 0 30px 0;
   }
 
+  .column {
+    text-align: center;
+  }
+
   .e-partner-logo {
     max-width: 200px;
     padding: 20px;
@@ -34,36 +56,48 @@
 .b-copyright { font-weight: 300; }
 
 
+// index custom
 
-// Julia's CSS
+.event-logo {
+  text-align: center;
+  img {max-width: 600px;}
+}
 
-// h2{
-//   text-align: center;
-// }
-// .odrs-logo{
-//   height: 50%;
-//   width: 60%;
-//   margin: 0 auto;
-// }
-// #odrs-logo-2{
-//   height: 50.67px;
-//   width: 40px;
-//   margin: 0 auto;
-// }
-// .od4d-logo{
-//   margin-top: -30px;
-// }
-// .navigation-bar{
-//   padding: 10px;
-// }
-// .b-button{
-//   display: inline-block;
-//   padding: 1.5% 10%;
-// }
-// #list{
-//   padding: 0px 20%;
-// }
-// iframe{
-//   height: 70%;
-//   width: 90%;
-// }
+// Questions
+
+.google-form {
+  .freebirdFormviewerViewItemsItemItemTitle {
+    display: none;
+  }
+
+  
+} 
+
+.b-form {
+  &.m-negative {
+    h4 {
+      font-style: italic;
+      font-weight: 100;
+      text-align: center;
+      text-transform: none;
+      color: white;
+    }
+    h3 { 
+      color: white; 
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    
+    .b-button {
+      color: white;
+    }
+  }
+
+  textarea { min-height: 180px; }
+}
+
+.b-divider {
+  h3 {
+    text-align: center;
+  }
+}

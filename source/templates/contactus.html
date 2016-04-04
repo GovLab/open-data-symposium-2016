@@ -1,15 +1,15 @@
 {% extends '_base.html' %}
 {% block main %}
-<div class="b-divider m-purple">
-    <h2>CONTACT US</h2>
+<div class="b-top-section m-dark-blue">
+    <h1>CONTACT US</h1>
 </div>
-<section id="intro-p" class="b-slide m-orange">
+<section id="intro-p" class="b-page-section">
     <div class="row e-content">
-        <div class="large-12 column">
-          <h3><p>The Symposium is being organized by the NYU GovLab, the World Wide Web Foundation and Open Data for Development. For more further information on the Symposium, please contact Stefaan Verhulst at stefaan@thegovlab.org.</p>
-            <p>Send us any additional questions or comments:</p></h3>
-          <form action="https://formspree.io/juliac@thegovlab.org"
-      method="POST" class="b-form">
+        <div class="large-8 large-offset-2 column">
+          <p>The Symposium is being organized by the NYU GovLab, the World Wide Web Foundation and Open Data for Development. For more further information on the Symposium, please contact Stefaan Verhulst at stefaan@thegovlab.org.</p>
+          <p>Send us any additional questions or comments:</p>
+          
+          <form action="https://formspree.io/juliac@thegovlab.org" method="POST" class="b-form">
             <input type="text" name="name" placeholder="FIRST AND LAST NAME" />
             <input type="email" name="_replyto" placeholder="EMAIL" />
             <textarea id="msg" placeholder="WRITE A MESSAGE"></textarea>
