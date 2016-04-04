@@ -10,6 +10,10 @@ $yellow: hsla(50, 71, 62, 1);
 .m-yellow { background-color: $yellow; }
 .m-green { background-color: $green; }
 
+.b-page-section.m-green > * {
+  color: white;
+}
+
 .b-divider.m-yellow {
   h1 { color: darken($yellow, 32); }
   h2 { color: darken($yellow, 32); }
@@ -97,7 +101,11 @@ $yellow: hsla(50, 71, 62, 1);
 }
 
 .b-divider {
-  h3 {
-    text-align: center;
-  }
+  h3, 
+  .e-button-container { text-align: center; }
 }
+
+.b-page-section > h2 {
+  text-align: center;
+}
+
