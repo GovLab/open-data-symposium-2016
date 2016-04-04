@@ -6916,32 +6916,32 @@ code.m-negative {
   .sandbox {
     background-color: blue; } }
 
-h2 {
-  text-align: center; }
+.b-top-nav .e-social-media img {
+  max-height: 16px; }
 
-.odrs-logo {
-  height: 50%;
-  width: 60%;
-  margin: 0 auto; }
+.b-top-nav .e-social-media a {
+  opacity: .6; }
 
-#odrs-logo-2 {
-  height: 50.67px;
-  width: 40px;
-  margin: 0 auto; }
+.b-top-nav .e-social-media a:hover {
+  opacity: 1; }
 
-.od4d-logo {
-  margin-top: -30px; }
+.b-top-nav .e-logo img {
+  height: 36px; }
 
-.navigation-bar {
-  padding: 10px; }
+.b-footer h2 {
+  font-size: 20px;
+  text-align-last: center;
+  color: rgba(255, 255, 255, 0.2);
+  font-weight: 600;
+  margin: 0 0 30px 0; }
 
-.b-button, .b-form input[type="submit"] {
-  display: inline-block;
-  padding: 1.5% 10%; }
+.b-footer .e-partner-logo {
+  max-width: 200px;
+  padding: 20px;
+  opacity: .8; }
 
-#list {
-  padding: 0px 20%; }
+.b-footer .m-od4d {
+  margin-top: -10px; }
 
-iframe {
-  height: 70%;
-  width: 90%; }
+.b-copyright {
+  font-weight: 300; }
