@@ -6,7 +6,7 @@ $yellow: hsla(50, 71, 62, 1);
 
 // Color modifiers
 
-.m-dark-blue { background-color: $dark-blue; }  
+.m-dark-blue { background-color: $dark-blue; }
 .m-yellow { background-color: $yellow; }
 .m-green { background-color: $green; }
 
@@ -70,8 +70,8 @@ $yellow: hsla(50, 71, 62, 1);
     display: none;
   }
 
-  
-} 
+
+}
 
 .b-form {
   &.m-negative {
@@ -82,12 +82,12 @@ $yellow: hsla(50, 71, 62, 1);
       text-transform: none;
       color: white;
     }
-    h3 { 
-      color: white; 
+    h3 {
+      color: white;
       text-align: center;
       margin-bottom: 30px;
     }
-    
+
     .b-button {
       color: white;
     }
@@ -99,5 +99,12 @@ $yellow: hsla(50, 71, 62, 1);
 .b-divider {
   h3 {
     text-align: center;
+  }
+}
+
+.row {
+  &.m-extra-margin {
+    margin-top: 40px;
+    margin-bottom: 40px;
   }
 }
