@@ -7016,3 +7016,114 @@ code.m-negative {
 
 #overlay {
   background-color: transparent; }
+
+.row.m-extra-margin {
+  margin-top: 40px;
+  margin-bottom: 40px; }
+
+.b-timeline time, .b-timeline-list time {
+  font-weight: 600; }
+
+.b-timeline-list {
+  display: block;
+  margin-bottom: 40px; }
+  @media screen and (min-width: 37.5625em) {
+    .b-timeline-list {
+      display: none; } }
+  .b-timeline-list .e-event {
+    padding: 20px; }
+    .b-timeline-list .e-event:nth-child(odd) {
+      background-color: rgba(0, 0, 0, 0.05); }
+    .b-timeline-list .e-event:nth-child(even) {
+      background-color: rgba(0, 0, 0, 0.1); }
+    .b-timeline-list .e-event.m-current {
+      background-color: #e3cc59; }
+
+.b-timeline {
+  display: none;
+  padding-left: 5px;
+  margin-bottom: 40px; }
+  @media screen and (min-width: 37.5625em) {
+    .b-timeline {
+      display: block; } }
+  .b-timeline .e-event {
+    display: relative;
+    margin-left: -5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: inline-block;
+    width: 16.66666666666%;
+    vertical-align: top;
+    border-left: solid 2px rgba(0, 0, 0, 0.4); }
+    .b-timeline .e-event.m-current {
+      border-left: solid 2px #e3cc59; }
+    .b-timeline .e-event .e-description {
+      display: block; }
+    .b-timeline .e-event time {
+      display: block; }
+  .b-timeline .e-timeline-graphic {
+    overflow: hidden;
+    margin-left: -5px;
+    padding-left: 5px; }
+    .b-timeline .e-timeline-graphic .e-timebox {
+      position: relative;
+      height: 40px;
+      padding: 0;
+      display: inline-block;
+      width: 16.66666666666%;
+      margin-left: -5px; }
+      .b-timeline .e-timeline-graphic .e-timebox::before, .b-timeline .e-timeline-graphic .e-timebox::after {
+        content: " "; }
+      .b-timeline .e-timeline-graphic .e-timebox::before {
+        position: absolute;
+        width: 0;
+        height: 0;
+        left: 2;
+        top: 12;
+        border-right: 22px solid transparent;
+        border-bottom: 22px solid transparent;
+        border-top: 22px solid white;
+        border-left: 22px solid white; }
+      .b-timeline .e-timeline-graphic .e-timebox::after {
+        position: absolute;
+        width: 0;
+        height: 0;
+        left: 0;
+        top: 10;
+        border-right: 20px solid transparent;
+        border-bottom: 20px solid transparent; }
+      .b-timeline .e-timeline-graphic .e-timebox:nth-child(1) {
+        background-color: rgba(0, 0, 0, 0.05); }
+      .b-timeline .e-timeline-graphic .e-timebox:nth-child(2) {
+        background-color: rgba(0, 0, 0, 0.1); }
+      .b-timeline .e-timeline-graphic .e-timebox:nth-child(3) {
+        background-color: rgba(0, 0, 0, 0.2); }
+      .b-timeline .e-timeline-graphic .e-timebox:nth-child(4) {
+        background-color: rgba(0, 0, 0, 0.3); }
+      .b-timeline .e-timeline-graphic .e-timebox:nth-child(5) {
+        background-color: rgba(0, 0, 0, 0.4); }
+      .b-timeline .e-timeline-graphic .e-timebox:nth-child(6) {
+        background-color: rgba(0, 0, 0, 0.5); }
+      .b-timeline .e-timeline-graphic .e-timebox:nth-child(1)::after {
+        border-left: 20px solid white;
+        border-top: 20px solid white; }
+      .b-timeline .e-timeline-graphic .e-timebox:nth-child(2)::after {
+        border-left: 20px solid rgba(0, 0, 0, 0.05);
+        border-top: 20px solid rgba(0, 0, 0, 0.05); }
+      .b-timeline .e-timeline-graphic .e-timebox:nth-child(3)::after {
+        border-left: 20px solid rgba(0, 0, 0, 0.1);
+        border-top: 20px solid rgba(0, 0, 0, 0.1); }
+      .b-timeline .e-timeline-graphic .e-timebox:nth-child(4)::after {
+        border-left: 20px solid rgba(0, 0, 0, 0.2);
+        border-top: 20px solid rgba(0, 0, 0, 0.2); }
+      .b-timeline .e-timeline-graphic .e-timebox:nth-child(5)::after {
+        border-left: 20px solid rgba(0, 0, 0, 0.3);
+        border-top: 20px solid rgba(0, 0, 0, 0.3); }
+      .b-timeline .e-timeline-graphic .e-timebox:nth-child(6)::after {
+        border-left: 20px solid rgba(0, 0, 0, 0.4);
+        border-top: 20px solid rgba(0, 0, 0, 0.4); }
+      .b-timeline .e-timeline-graphic .e-timebox.m-current {
+        background-color: #e3cc59; }
+        .b-timeline .e-timeline-graphic .e-timebox.m-current + .e-timebox::after {
+          border-left: 20px solid #e3cc59;
+          border-top: 20px solid #e3cc59; }
