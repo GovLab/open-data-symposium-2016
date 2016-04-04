@@ -109,3 +109,16 @@ $yellow: hsla(50, 71, 62, 1);
   text-align: center;
 }
 
+.b-committee {
+  ul { padding: 0; }
+  li { 
+    list-style-type: none; 
+    margin-bottom: 15px;
+    color: rgba($black, .6);
+
+    strong {
+      color: rgba($black, .9);
+      display: block;
+    }
+  }
+}
