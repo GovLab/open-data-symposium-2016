@@ -7220,11 +7220,7 @@ code.m-negative {
   margin-top: 40px;
   margin-bottom: 40px; }
 
-#odrs-history-button {
-  margin: 0 auto;
-  float: left; }
-
-#home-abstract-button-container {
+#home-abstract-button-container, #abstract-button-container {
   background-color: white;
   color: black; }
 
