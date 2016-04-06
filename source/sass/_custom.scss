@@ -101,7 +101,7 @@ $yellow: hsla(50, 71, 62, 1);
 }
 
 .b-divider {
-  h3, 
+  h3,
   .e-button-container { text-align: center; }
 }
 
@@ -111,8 +111,8 @@ $yellow: hsla(50, 71, 62, 1);
 
 .b-committee {
   ul { padding: 0; }
-  li { 
-    list-style-type: none; 
+  li {
+    list-style-type: none;
     margin-bottom: 15px;
     color: rgba($black, .6);
 
@@ -130,4 +130,7 @@ $yellow: hsla(50, 71, 62, 1);
     margin-top: 40px;
     margin-bottom: 40px;
   }
+}
+#odrs-history-button{
+  margin: 0 27%;
 }
