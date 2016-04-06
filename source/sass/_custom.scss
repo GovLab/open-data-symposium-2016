@@ -134,3 +134,10 @@ $yellow: hsla(50, 71, 62, 1);
 #odrs-history-button{
   margin: 0 29.2%;
 }
+#home-abstract-button{
+  margin: 0 40.2%;
+}
+#home-abstract-button:hover{
+  background-color: $yellow;
+  color: darken($yellow, 32);
+}
