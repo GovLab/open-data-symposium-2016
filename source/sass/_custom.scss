@@ -132,10 +132,12 @@ $yellow: hsla(50, 71, 62, 1);
   }
 }
 #odrs-history-button{
-  margin: 0 29.2%;
+  margin: 0 auto;
+  float: left;
 }
-#home-abstract-button{
-  margin: 0 40.2%;
+#home-abstract-button-container{
+  background-color: white;
+  color: black;
 }
 #home-abstract-button:hover{
   background-color: $yellow;
