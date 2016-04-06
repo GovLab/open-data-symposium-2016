@@ -7220,6 +7220,9 @@ code.m-negative {
   margin-top: 40px;
   margin-bottom: 40px; }
 
+#odrs-history-button {
+  margin: 0 27%; }
+
 .b-timeline time, .b-timeline-list time {
   font-weight: 600; }
 
