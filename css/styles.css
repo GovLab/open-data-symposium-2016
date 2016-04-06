@@ -7230,6 +7230,9 @@ code.m-negative {
   background-color: #e3cc59;
   color: #837116; }
 
+.odrs-announcement {
+  text-align: center; }
+
 .b-timeline time, .b-timeline-list time {
   font-weight: 600; }
 
