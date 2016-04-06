@@ -7223,6 +7223,13 @@ code.m-negative {
 #odrs-history-button {
   margin: 0 29.2%; }
 
+#home-abstract-button {
+  margin: 0 40.2%; }
+
+#home-abstract-button:hover {
+  background-color: #e3cc59;
+  color: #837116; }
+
 .b-timeline time, .b-timeline-list time {
   font-weight: 600; }
 
