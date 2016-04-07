@@ -131,11 +131,11 @@ $yellow: hsla(50, 71, 62, 1);
     margin-bottom: 40px;
   }
 }
-#home-abstract-button-container, #abstract-button-container{
+#home-abstract-button-container, #abstract-button-container, #home-question-button-container{
   background-color: white;
   color: black;
 }
-#home-abstract-button:hover{
+#home-abstract-button:hover, #home-question-button:hover,{
   background-color: $yellow;
   color: darken($yellow, 32);
 }
