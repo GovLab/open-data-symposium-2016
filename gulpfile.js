@@ -36,8 +36,15 @@ gulp.task('img', function() {
   .pipe(browserSync.stream());
 });
 
-gulp.task('js', function() {
-  return gulp.src(['node_modules/govlab-styleguide/js/**/*', 'source/js/**/*']) // this is weird
+gulp.task('libJs', function() {
+  return gulp.src('node_modules/govlab-styleguide/dist/js/**/*')
+  .pipe(plumber())
+  .pipe(gulp.dest('source/js/lib'))
+  .pipe(browserSync.stream());
+});
+
+gulp.task('js', ['libJs'], function() {
+  return gulp.src('source/js/**/*')
   .pipe(plumber())
   .pipe(gulp.dest('public/js'))
   .pipe(browserSync.stream());
@@ -49,7 +56,7 @@ gulp.task('nunjucks', function() {
 
   var options = {
     path: 'source/templates',
-    ext: '.html'  
+    ext: '.html'
   };
 
   // nunjucksRender.nunjucks.configure(['source/templates/']);
