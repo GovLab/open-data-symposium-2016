@@ -7220,11 +7220,11 @@ code.m-negative {
   margin-top: 40px;
   margin-bottom: 40px; }
 
-#home-abstract-button-container, #abstract-button-container {
+#home-abstract-button-container, #abstract-button-container, #home-question-button-container {
   background-color: white;
   color: black; }
 
-#home-abstract-button:hover {
+#home-abstract-button:hover, #home-question-button:hover {
   background-color: #e3cc59;
   color: #837116; }
 
