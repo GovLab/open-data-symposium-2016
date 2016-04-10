@@ -7231,6 +7231,10 @@ code.m-negative {
 .odrs-announcement {
   text-align: center; }
 
+.menu-text {
+  padding: 3.3px 30px;
+  font-style: italic; }
+
 .b-timeline time, .b-timeline-list time {
   font-weight: 600; }
 
