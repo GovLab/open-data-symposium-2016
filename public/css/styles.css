@@ -7235,6 +7235,15 @@ code.m-negative {
   padding: 3.3px 30px;
   font-style: italic; }
 
+#twitter-logo-text {
+  padding: 18.5px; }
+
+.contactus-link, .contactus-email {
+  text-decoration: none; }
+
+.contactus-link:hover, .contactus-email:hover {
+  color: #837116; }
+
 .b-timeline time, .b-timeline-list time {
   font-weight: 600; }
 

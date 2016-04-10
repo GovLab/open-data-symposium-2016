@@ -146,3 +146,12 @@ $yellow: hsla(50, 71, 62, 1);
   padding: 3.3px 30px;
   font-style: italic;
 }
+#twitter-logo-text{
+  padding: 18.5px;
+}
+.contactus-link, .contactus-email{
+  text-decoration: none;
+}
+.contactus-link:hover, .contactus-email:hover{
+  color: darken($yellow, 32);
+}
