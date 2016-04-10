@@ -7224,8 +7224,7 @@ code.m-negative {
   background-color: white;
   color: black; }
 
-#home-abstract-button:hover, #home-question-button:hover {
-  background-color: #e3cc59;
+#home-abstract-button:hover, #home-question-button:hover, .index-odrs-twitter-link:hover {
   color: #837116; }
 
 .odrs-announcement {
@@ -7238,8 +7237,8 @@ code.m-negative {
 #twitter-logo-text {
   padding: 18.5px; }
 
-.contactus-link, .contactus-email {
-  text-decoration: none; }
+.contactus-link, .contactus-email, .index-odrs-twitter-link {
+  text-decoration: none !important; }
 
 .contactus-link:hover, .contactus-email:hover {
   color: #837116; }

@@ -135,8 +135,7 @@ $yellow: hsla(50, 71, 62, 1);
   background-color: white;
   color: black;
 }
-#home-abstract-button:hover, #home-question-button:hover,{
-  background-color: $yellow;
+#home-abstract-button:hover, #home-question-button:hover, .index-odrs-twitter-link:hover{
   color: darken($yellow, 32);
 }
 .odrs-announcement {
@@ -149,8 +148,8 @@ $yellow: hsla(50, 71, 62, 1);
 #twitter-logo-text{
   padding: 18.5px;
 }
-.contactus-link, .contactus-email{
-  text-decoration: none;
+.contactus-link, .contactus-email, .index-odrs-twitter-link{
+  text-decoration: none !important;
 }
 .contactus-link:hover, .contactus-email:hover{
   color: darken($yellow, 32);
