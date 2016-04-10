@@ -7237,10 +7237,10 @@ code.m-negative {
 #twitter-logo-text {
   padding: 18.5px; }
 
-.contactus-link, .contactus-email, .index-odrs-twitter-link {
+.contactus-link, .contactus-email, .index-odrs-twitter-link, .question-odrs-twitter-link {
   text-decoration: none !important; }
 
-.contactus-link:hover, .contactus-email:hover {
+.contactus-link:hover, .contactus-email:hover, .question-odrs-twitter-link:hover {
   color: #837116; }
 
 .b-timeline time, .b-timeline-list time {
