@@ -154,3 +154,6 @@ $yellow: hsla(50, 71, 62, 1);
 .contactus-link:hover, .contactus-email:hover, .question-odrs-twitter-link:hover, .odrs-2015-link:hover, .iodc-link:hover{
   color: darken($yellow, 32);
 }
+.confirmation-section-header, .confirmation-section-body{
+  text-align: center;
+}

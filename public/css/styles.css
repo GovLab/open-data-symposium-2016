@@ -7243,6 +7243,9 @@ code.m-negative {
 .contactus-link:hover, .contactus-email:hover, .question-odrs-twitter-link:hover, .odrs-2015-link:hover, .iodc-link:hover {
   color: #837116; }
 
+.confirmation-section-header, .confirmation-section-body {
+  text-align: center; }
+
 .b-timeline time, .b-timeline-list time {
   font-weight: 600; }
 
