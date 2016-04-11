@@ -148,9 +148,9 @@ $yellow: hsla(50, 71, 62, 1);
 #twitter-logo-text{
   padding: 18.5px;
 }
-.contactus-link, .contactus-email, .index-odrs-twitter-link, .question-odrs-twitter-link, .odrs-2015-link{
+.contactus-link, .contactus-email, .index-odrs-twitter-link, .question-odrs-twitter-link, .odrs-2015-link, .iodc-link{
   text-decoration: none !important;
 }
-.contactus-link:hover, .contactus-email:hover, .question-odrs-twitter-link:hover, .odrs-2015-link:hover{
+.contactus-link:hover, .contactus-email:hover, .question-odrs-twitter-link:hover, .odrs-2015-link:hover, .iodc-link:hover{
   color: darken($yellow, 32);
 }
