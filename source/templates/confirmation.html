@@ -1,5 +1,6 @@
 {% extends '_base.html' %}
 {% block main %}
+
 <div class="b-top-section m-dark-blue">
     <h1>CONTACT US</h1>
 </div>
@@ -10,17 +11,20 @@
           <a href="https://www.webfoundation.org" class="contactus-link" target="_blank"><strong>the World Wide Web Foundation</strong></a>
           and <a href="https://www.opendataresearch.org" class="contactus-link" target="_blank"><strong>Open Data for Development</strong></a>. For further information on the Symposium, please email <a href="mailto:stefaan@thegovlab.org?Subject=ODRS%202016" class="contactus-email"><strong>Stefaan Verhulst</strong></a> or use the contact form below.</p>
 
-          <form action="https://formspree.io/andrew@thegovlab.org" method="POST" class="b-form" id="contact-form">
-            <input type="text" name="name" placeholder="FIRST AND LAST NAME" />
-            <input type="email" name="_replyto" placeholder="EMAIL" />
-            <textarea id="msg" placeholder="WRITE A MESSAGE"></textarea>
-            <a href="#" id="send-btn" class="b-button">Send<i class="material-icons">send</i></a>
-            <input type="hidden" name="_next" value="//confirmation.html" />
-          </form>
+
+          <div class="b-page-section">
+            <div class="row">
+              <div class="large-10 large-centered columns m-centered">
+                <h1>Message Sent</h1>
+                <h4>Thank you for your message. We will try to respond as soon as possible.</h4>
+              </div>
+            </div>
+          </div>
+
+
         </div>
         </div>
 </section>
-
 
 
 {% endblock %}
