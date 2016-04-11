@@ -7172,7 +7172,8 @@ code.m-negative {
 .event-logo {
   text-align: center; }
   .event-logo img {
-    max-width: 600px; }
+    max-width: 80%;
+    width: 600px; }
 
 .google-form .freebirdFormviewerViewItemsItemItemTitle {
   display: none; }
