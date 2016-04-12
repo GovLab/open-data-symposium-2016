@@ -7137,6 +7137,9 @@ code.m-negative {
 .b-divider.m-yellow h3 {
   color: #837116; }
 
+main {
+  min-height: 100vh; }
+
 .b-top-nav .e-social-media img {
   max-height: 16px; }
 
