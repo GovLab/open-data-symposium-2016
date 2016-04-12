@@ -23,6 +23,8 @@ main{
   min-height: 100vh;
 }
 
+/* Keyword value only */
+
 .b-top-nav {
   .e-social-media {
     img { max-height: 16px; }
@@ -160,4 +162,8 @@ main{
 }
 .confirmation-section-header, .confirmation-section-body{
   text-align: center;
+}
+
+.material-icons, .menu-text{
+  cursor: pointer;
 }
