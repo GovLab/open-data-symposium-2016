@@ -137,6 +137,8 @@ main{
     margin-bottom: 40px;
   }
 }
+
+
 #home-abstract-button-container, #abstract-button-container, #home-question-button-container{
   background-color: white;
   color: black;
@@ -163,7 +165,10 @@ main{
 .confirmation-section-header, .confirmation-section-body{
   text-align: center;
 }
-
 .material-icons, .menu-text{
   cursor: pointer;
+}
+
+#ss-item{
+  background-color: $m-dark-blue;
 }
