@@ -7254,6 +7254,10 @@ main {
 .material-icons, .menu-text {
   cursor: pointer; }
 
+.b-button-background {
+  background-color: #243747;
+  border: none; }
+
 .b-timeline time, .b-timeline-list time {
   font-weight: 600; }
 
