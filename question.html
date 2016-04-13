@@ -87,7 +87,13 @@
 <section id="intro-p" class="b-page-section m-dark-blue">
   <div class="row">
     <div class="large-8 column large-offset-2">
-      <form action="https://docs.google.com/forms/d/1-sPduMf0WvSZvbL0vN-7CkM9BmOMDF1h3OoKBQKiMik/formResponse" method="POST" class="b-form m-negative" id="ss-form" target="_self" onsubmit="">
+
+      <script type="text/javascript">var submitted=false;</script>
+      <iframe name="hidden_iframe" id="hidden_iframe"
+      style="display:none;" onload="if(submitted)
+      {window.location='http://www.odresearch.org/confirmation-question.html';}"></iframe>
+
+      <form action="https://docs.google.com/forms/d/1-sPduMf0WvSZvbL0vN-7CkM9BmOMDF1h3OoKBQKiMik/formResponse" method="POST" class="b-form m-negative" id="ss-form" target="_hidden" onsubmit="submitted=true;">
         <h4>or...</h4>
         <h3>Send your questions through the online form</h3>
         <ol role="list" class="ss-question-list" style="padding-left: 0;">
