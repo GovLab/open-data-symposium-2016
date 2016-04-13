@@ -168,7 +168,7 @@ main{
 .material-icons, .menu-text{
   cursor: pointer;
 }
-
-#ss-item{
-  background-color: $m-dark-blue;
+.b-button-background{
+  background-color: $dark-blue;
+  border: none;
 }
