@@ -7261,6 +7261,9 @@ main {
 .fa-twitter {
   color: #47a6b3; }
 
+.question-text-area {
+  color: white; }
+
 .b-timeline time, .b-timeline-list time {
   font-weight: 600; }
 
