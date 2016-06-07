@@ -4578,7 +4578,6 @@ Styleguide 1.2
   right: 0;
   z-index: 10;
   display: none;
-  background-color: red;
   opacity: .1; }
   #overlay.m-active {
     display: block; }
@@ -5250,6 +5249,7 @@ Markup:
 .m-black     - Uses $black background
 .m-icon-only - For buttons without any text, can be used with any color modifier
 .m-naked     - Transparent style, will blend in with background of parent element
+.m-disabled - Will disable button so there is no click action
 
 Styleguide 3.1
 */
@@ -5317,6 +5317,10 @@ Styleguide 3.1
   .b-button.m-naked:hover, .b-form input.m-naked[type="submit"]:hover {
     background-color: rgba(0, 0, 0, 0.2);
     transition: all .4s ease; }
+
+.b-button.m-disabled, .b-form input.m-disabled[type="submit"] {
+  pointer-events: none;
+  opacity: 0.5; }
 
 /*
 Form
@@ -6287,6 +6291,30 @@ Markup:
 .m-blue - $blue background
 .m-orange - $orange background
 .m-teal - $teal background
+.m-gray-25 - $gray-25 background
+.m-gray-10 - $gray-10 background
+.m-gray-15 - $gray-15 background
+.m-gray-20 - $gray-20 background
+.m-gray-30 - $gray-30 background
+.m-gray-40 - $gray-40 background
+.m-gray-50 - $gray-50 background
+.m-gray-60 - $gray-60 background
+.m-gray-70 - $gray-70 background
+.m-gray-80 - $gray-80 background
+.m-gray-90 - $gray-90 background
+.m-black - $black background
+.m-purple-20k - $purple-20k background
+.m-purple-40k - $purple-40k background
+.m-orange-20k - $orange-20k background
+.m-teal-20k - $teal-20k background
+.m-blue-20k - $blue-20k background
+.m-red - $red background
+.m-green - $green background
+
+
+
+
+
 
 Styleguide 3.6
 */
