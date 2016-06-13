@@ -5978,6 +5978,21 @@ Markup:
 .m-orange - $orange background
 .m-purple-40k - $purple-40k background
 .m-blue-20k - $blue-20k background
+.m-gray-20 - $gray-20 background
+.m-gray-30 - $gray-30 background
+.m-gray-40 - $gray-40 background
+.m-gray-50 - $gray-50 background
+.m-gray-60 - $gray-60 background
+.m-gray-70 - $gray-70 background
+.m-gray-80 - $gray-80 background
+.m-gray-90 - $gray-90 background
+.m-black - $black background
+.m-purple-20k - $purple-20k background
+.m-orange-20k - $orange-20k background
+.m-teal-20k - $teal-20k background
+.m-blue-20k - $blue-20k background
+.m-red - $red background
+.m-green - $green background
 
 Styleguide 3.4
 */
@@ -6018,11 +6033,53 @@ Styleguide 3.4
 .b-divider.m-teal {
   background-color: #008895; }
 
+.b-divider.m-purple-20k {
+  background-color: #47266f; }
+
 .b-divider.m-purple-40k {
   background-color: #381759; }
 
 .b-divider.m-blue-20k {
   background-color: #006e8f; }
+
+.b-divider.m-gray-20 {
+  background-color: rgba(0, 0, 0, 0.2); }
+
+.b-divider.m-gray-30 {
+  background-color: rgba(0, 0, 0, 0.3); }
+
+.b-divider.m-gray-40 {
+  background-color: rgba(0, 0, 0, 0.4); }
+
+.b-divider.m-gray-50 {
+  background-color: rgba(0, 0, 0, 0.5); }
+
+.b-divider.m-gray-60 {
+  background-color: rgba(0, 0, 0, 0.6); }
+
+.b-divider.m-gray-70 {
+  background-color: rgba(0, 0, 0, 0.7); }
+
+.b-divider.m-gray-80 {
+  background-color: rgba(0, 0, 0, 0.8); }
+
+.b-divider.m-gray-90 {
+  background-color: rgba(0, 0, 0, 0.9); }
+
+.b-divider.m-black {
+  background-color: #333; }
+
+.b-divider.m-orange-20k {
+  background-color: #be4936; }
+
+.b-divider.m-teal-20k {
+  background-color: #00616b; }
+
+.b-divider.m-red {
+  background-color: #c30014; }
+
+.b-divider.m-green {
+  background-color: #197d32; }
 
 /*
 Slide
@@ -7291,6 +7348,61 @@ main {
 
 .question-text-area {
   color: white; }
+
+.m-center {
+  text-align: center; }
+
+p time, h1 time, h2 time, h3 time, h4 time, h5 time, li time {
+  font-weight: 700; }
+
+ul.m-indent {
+  padding-left: inherit;
+  padding-right: inherit; }
+  @media screen and (min-width: 64.0625em) {
+    ul.m-indent {
+      padding-left: 50px;
+      padding-right: 50px; } }
+
+ul.m-alt-shade li {
+  color: rgba(0, 0, 0, 0.7); }
+
+ul.m-wide-lines {
+  line-height: 2; }
+  ul.m-wide-lines li {
+    margin-top: 8px;
+    margin-bottom: 8px; }
+
+ul.m-alt-bullets {
+  display: table;
+  list-style: none; }
+  ul.m-alt-bullets li {
+    position: relative; }
+    ul.m-alt-bullets li::before {
+      display: inline-block;
+      position: absolute;
+      left: -20px;
+      top: 6px;
+      font-size: 10px;
+      padding-right: 10px;
+      font-family: 'Material Icons';
+      font-weight: normal;
+      font-style: normal;
+      content: "radio_button_unchecked"; }
+
+.m-extra-header-space h1, .m-extra-header-space h2 {
+  padding-top: 40px;
+  padding-bottom: 40px; }
+
+.m-extra-header-space h3, .m-extra-header-space h4 {
+  padding-top: 33px;
+  padding-bottom: 33px; }
+
+.m-extra-header-space h5 {
+  padding-top: 15px;
+  padding-bottom: 15px; }
+
+.m-alt-header-shade h1, .m-alt-header-shade h2, .m-alt-header-shade h3, .m-alt-header-shade h4 {
+  color: rgba(0, 0, 0, 0.7); }
 
 .b-timeline time, .b-timeline-list time {
   font-weight: 600; }
