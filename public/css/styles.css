@@ -7210,6 +7210,9 @@ code.m-negative {
 .m-green {
   background-color: #47a6b3; }
 
+.b-divider.m-green {
+  background-color: #47a6b3; }
+
 .b-page-section.m-green > * {
   color: white; }
 
@@ -7352,9 +7355,6 @@ main {
 .m-center {
   text-align: center; }
 
-p time, h1 time, h2 time, h3 time, h4 time, h5 time, li time {
-  font-weight: 700; }
-
 ul.m-indent {
   padding-left: inherit;
   padding-right: inherit; }
@@ -7403,6 +7403,21 @@ ul.m-alt-bullets {
 
 .m-alt-header-shade h1, .m-alt-header-shade h2, .m-alt-header-shade h3, .m-alt-header-shade h4 {
   color: rgba(0, 0, 0, 0.7); }
+
+p time, h1 time, h2 time, h3 time, h4 time, h5 time, li time {
+  font-weight: 700; }
+
+p a:not(.m-base-color), h1 a:not(.m-base-color), h2 a:not(.m-base-color), h3 a:not(.m-base-color), h4 a:not(.m-base-color), h5 a:not(.m-base-color), li a:not(.m-base-color) {
+  text-decoration: none;
+  font-weight: 700;
+  color: #47a6b3; }
+
+p a.b-button, h1 a.b-button, h2 a.b-button, h3 a.b-button, h4 a.b-button, h5 a.b-button, li a.b-button {
+  font-weight: initial;
+  color: initial; }
+
+.b-divider.m-green a {
+  color: white; }
 
 #ss-submit i {
   font-size: 16px; }
