@@ -1,14 +1,16 @@
 // colors
 
 $dark-blue: hsla(207, 33, 21, 1);
-$green: hsla(187, 43, 49, 1);
+$odrs-green: hsla(187, 43, 49, 1);
 $yellow: hsla(50, 71, 62, 1);
 
 // Color modifiers
 
 .m-dark-blue { background-color: $dark-blue; }
 .m-yellow { background-color: $yellow; }
-.m-green { background-color: $green; }
+.m-green { background-color: $odrs-green; }
+
+.b-divider.m-green { background-color: $odrs-green; }
 
 .b-page-section.m-green > * { color: white; }
 
@@ -173,7 +175,7 @@ main{
   border: none;
 }
 .fa-twitter {
-  color: $green;
+  color: $odrs-green;
 }
 
 .question-text-area{
@@ -182,12 +184,6 @@ main{
 
 .m-center {
   text-align: center;
-}
-
-p, h1, h2, h3, h4, h5, li {
-  time {
-    font-weight: 700;
-  }
 }
 
 ul{
@@ -252,6 +248,27 @@ ul{
     color: $gray-70;
   }
 }
+
+p, h1, h2, h3, h4, h5, li {
+  time {
+    font-weight: 700;
+  }
+  a:not(.m-base-color) {
+    text-decoration: none;
+    font-weight: 700;
+    color: $odrs-green;
+  }
+  a.b-button {
+    font-weight: initial;
+    color: initial;
+  }
+}
+
+.b-divider.m-green a {
+  color: $white;
+}
+
+
 
 #ss-submit {
   i {
