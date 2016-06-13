@@ -7404,6 +7404,9 @@ ul.m-alt-bullets {
 .m-alt-header-shade h1, .m-alt-header-shade h2, .m-alt-header-shade h3, .m-alt-header-shade h4 {
   color: rgba(0, 0, 0, 0.7); }
 
+#ss-submit i {
+  font-size: 16px; }
+
 .b-timeline time, .b-timeline-list time {
   font-weight: 600; }
 
