@@ -70,8 +70,8 @@ main{
 .event-logo {
   text-align: center;
   img {max-width: 80%;
-      width: 600px;}
-}
+    width: 600px;}
+  }
 
 // Questions
 
@@ -178,4 +178,77 @@ main{
 
 .question-text-area{
   color: white;
+}
+
+.m-center {
+  text-align: center;
+}
+
+p, h1, h2, h3, h4, h5, li {
+  time {
+    font-weight: 700;
+  }
+}
+
+ul{
+  &.m-indent {
+    @include breakpoint($desktop) {
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+    @include breakpoint($mobile-only) {
+      padding-left: inherit;
+      padding-right: inherit;
+    }
+  }
+  &.m-alt-shade li {
+    color: $gray-70;
+  }
+  &.m-wide-lines {
+    line-height: 2;
+    li {
+      margin-top: 8px;
+      margin-bottom: 8px;
+    }
+  }
+  &.m-alt-bullets {
+    display: table;
+    list-style: none;
+    li {
+      position: relative;
+      &::before {
+        display: inline-block;
+        position: absolute;
+        left: -20px;
+        top: 6px;
+        font-size: 10px;
+        padding-right: 10px;
+        font-family: 'Material Icons';
+        font-weight: normal;
+        font-style: normal;
+        content: "radio_button_unchecked";
+      }
+    }
+  }
+}
+
+.m-extra-header-space {
+  h1, h2, {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  h3, h4 {
+    padding-top: 33px;
+    padding-bottom: 33px;
+  }
+  h5 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+}
+
+.m-alt-header-shade {
+  h1, h2, h3, h4 {
+    color: $gray-70;
+  }
 }
