@@ -7530,7 +7530,7 @@ p a.b-button, h1 a.b-button, h2 a.b-button, h3 a.b-button, h4 a.b-button, h5 a.b
           border-top: 20px solid #e3cc59; }
 
 table tbody {
-  border: 0px; }
+  border: 0px #FFFFFF; }
   table tbody .authors a {
     color: #47a6b3;
     transition: all .4s ease; }
