@@ -7528,3 +7528,14 @@ p a.b-button, h1 a.b-button, h2 a.b-button, h3 a.b-button, h4 a.b-button, h5 a.b
         .b-timeline .e-timeline-graphic .e-timebox.m-current + .e-timebox::after {
           border-left: 20px solid #e3cc59;
           border-top: 20px solid #e3cc59; }
+
+table tbody {
+  border: 0px; }
+  table tbody .authors a {
+    color: #47a6b3;
+    transition: all .4s ease; }
+  table tbody .authors a:hover {
+    color: #307078;
+    text-decoration: none; }
+  table tbody .title {
+    font-style: italic; }
