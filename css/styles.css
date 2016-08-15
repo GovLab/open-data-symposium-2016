@@ -7422,6 +7422,18 @@ p a.b-button, h1 a.b-button, h2 a.b-button, h3 a.b-button, h4 a.b-button, h5 a.b
 #ss-submit i {
   font-size: 16px; }
 
+table.programme > tbody > tr:nth-child(even) {
+  background-color: transparent; }
+
+table.programme .sub-table {
+  padding: 0; }
+  table.programme .sub-table > table tr:first-child td {
+    font-weight: 700; }
+
+a.inline {
+  font-weight: 700;
+  color: #47a6b3; }
+
 .b-timeline time, .b-timeline-list time {
   font-weight: 600; }
 
