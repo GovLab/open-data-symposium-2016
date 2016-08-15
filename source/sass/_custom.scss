@@ -275,3 +275,20 @@ p, h1, h2, h3, h4, h5, li {
     font-size: 16px;
   }
 }
+
+table.programme {
+  & > tbody > tr:nth-child(even) {
+    background-color: transparent;
+  }
+  .sub-table {
+    padding: 0;
+    & > table tr:first-child td {
+      font-weight: 700;
+    }
+  }
+}
+
+a.inline {
+  font-weight: 700;
+  color: #47a6b3;
+}
