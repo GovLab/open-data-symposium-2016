@@ -7434,6 +7434,9 @@ a.inline {
   font-weight: 700;
   color: #47a6b3; }
 
+.b-button.m-ex-space, .b-form input.m-ex-space[type="submit"] {
+  margin: 10px; }
+
 .b-timeline time, .b-timeline-list time {
   font-weight: 600; }
 
