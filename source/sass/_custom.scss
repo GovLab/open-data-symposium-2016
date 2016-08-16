@@ -38,6 +38,7 @@ main{
   .e-logo {
     img { height: 36px; }
   }
+  z-index: 10;
 }
 
 .b-footer {
@@ -293,6 +294,38 @@ a.inline {
   color: #47a6b3;
 }
 
-.b-button.m-ex-space {
-  margin: 10px;
+.b-button {
+  &.m-ex-space {
+    margin: 10px;
+  }
+  &.m-fold-button {
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    max-width: 200px;
+    bottom: -25px;
+    background-color: $odrs-green;
+    &:hover {
+      background-color: darken($odrs-green, 10%);
+    }
+  }
+}
+
+.rel {
+  position: relative;
+}
+
+.b-divider.m-ex-space-v {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.b-main-menu:not(.m-active) {
+  box-shadow: none;
+}
+
+.b-main-menu {
+  overflow-y: auto;
 }
