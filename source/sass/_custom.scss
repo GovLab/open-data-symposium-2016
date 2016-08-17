@@ -287,6 +287,33 @@ table.programme {
       font-weight: 700;
     }
   }
+
+  @include breakpoint($desktop) { display: table; }
+  @include breakpoint($mobile-only) { display: none; }
+}
+
+.programme.m-mobile {
+  div {
+    padding: 10px;
+  }
+  .subsection {
+    section:nth-child(even) {
+      background-color: lighten($dark-blue, 70%);
+    }
+  }
+  .time {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+  .header {
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+  }
+  .subheader {
+    font-weight: 700;
+  }
+  @include breakpoint($desktop) { display: none; }
+  @include breakpoint($mobile-only) { display: block; }
 }
 
 a.inline {

@@ -7,7 +7,8 @@ nunjucksRender  = require('gulp-nunjucks-render'),
 browserSync     = require('browser-sync'),
 file            = require('gulp-file'),
 plumber         = require('gulp-plumber'),
-packagejson     = require('./package.json');
+packagejson     = require('./package.json'),
+siteData        = require('./source/data/data.json');
 
 
 
@@ -54,19 +55,15 @@ gulp.task('js', ['libJs'], function() {
 // Nunjucks
 gulp.task('nunjucks', function() {
 
-  var options = {
-    path: 'source/templates',
-    ext: '.html'
-  };
-
-  // nunjucksRender.nunjucks.configure(['source/templates/']);
   return gulp.src('source/templates/**/*.+(html|nunjucks)')
-  .pipe(plumber())
+  // .pipe(plumber())
   // Adding data to Nunjucks
-  .pipe(data(function() {
-    return require('./source/data/data.json')
+  .pipe(data(function(f) {
+    return siteData;
   }))
-  .pipe(nunjucksRender(options))
+  .pipe(nunjucksRender({
+    path: 'source/templates',
+  }))
   .pipe(gulp.dest('public'))
   .pipe(browserSync.reload({
     stream: true
