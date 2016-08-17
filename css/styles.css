@@ -7421,13 +7421,35 @@ p a.b-button, h1 a.b-button, h2 a.b-button, h3 a.b-button, h4 a.b-button, h5 a.b
 #ss-submit i {
   font-size: 16px; }
 
-table.programme > tbody > tr:nth-child(even) {
-  background-color: transparent; }
+table.programme {
+  display: none; }
+  table.programme > tbody > tr:nth-child(even) {
+    background-color: transparent; }
+  table.programme .sub-table {
+    padding: 0; }
+    table.programme .sub-table > table tr:first-child td {
+      font-weight: 700; }
+  @media screen and (min-width: 64.0625em) {
+    table.programme {
+      display: table; } }
 
-table.programme .sub-table {
-  padding: 0; }
-  table.programme .sub-table > table tr:first-child td {
+.programme.m-mobile {
+  display: block; }
+  .programme.m-mobile div {
+    padding: 10px; }
+  .programme.m-mobile .subsection section:nth-child(even) {
+    background-color: #e0e9f0; }
+  .programme.m-mobile .time {
+    background-color: rgba(0, 0, 0, 0.05); }
+  .programme.m-mobile .header {
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center; }
+  .programme.m-mobile .subheader {
     font-weight: 700; }
+  @media screen and (min-width: 64.0625em) {
+    .programme.m-mobile {
+      display: none; } }
 
 a.inline {
   font-weight: 700;
