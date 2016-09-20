@@ -12,6 +12,11 @@ $diagonal-size: 20px;
 $sm-desktop: 601px;
 $sm-mobile-only: max-width 600px;
 
+// quick fix for soothing cocktails
+.cocktails { color: $odrs-green; transition: all .4s ease; }
+.cocktails:hover { color: darken($odrs-green, 16); text-decoration:none; }
+
+
 .b-timeline, .b-timeline-list {
     time {
         font-weight: 600;
