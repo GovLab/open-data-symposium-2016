@@ -7483,6 +7483,13 @@ a.inline {
 .b-main-menu {
   overflow-y: auto; }
 
+caption a {
+  color: #47a6b3; }
+
+caption a:hover {
+  color: #39848e;
+  text-decoration: none; }
+
 .cocktails {
   color: #47a6b3;
   transition: all .4s ease; }
