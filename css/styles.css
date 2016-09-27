@@ -7608,3 +7608,6 @@ table tbody {
     text-decoration: none; }
   table tbody .title {
     font-style: italic; }
+    table tbody .title a {
+      text-decoration: underline;
+      transition: all .4s ease; }
