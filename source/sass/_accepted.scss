@@ -18,7 +18,18 @@ table {
 		}
 
 		.title {
-				font-style: italic;
+			font-style: italic;
+
+			a {
+				text-decoration:underline;
+				transition: all .4s ease;
+			}
+
+			a:hover {
+
+			}
+
+
 		}
 	}
 	
