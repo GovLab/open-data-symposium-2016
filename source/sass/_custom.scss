@@ -293,6 +293,10 @@ table.programme {
 }
 
 .programme.m-mobile {
+  a { color: $odrs-green; } 
+
+  a:hover { color: darken($odrs-green, 10%); text-decoration: none; }
+  
   div {
     padding: 10px;
   }
@@ -338,6 +342,7 @@ a.inline {
       background-color: darken($odrs-green, 10%);
     }
   }
+
 }
 
 .rel {
@@ -358,3 +363,4 @@ a.inline {
 }
 
 caption { a { color: $odrs-green; } a:hover { color: darken($odrs-green, 10%); text-decoration: none; }}
+
