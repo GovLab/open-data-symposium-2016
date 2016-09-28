@@ -7435,6 +7435,11 @@ table.programme {
 
 .programme.m-mobile {
   display: block; }
+  .programme.m-mobile a {
+    color: #47a6b3; }
+  .programme.m-mobile a:hover {
+    color: #39848e;
+    text-decoration: none; }
   .programme.m-mobile div {
     padding: 10px; }
   .programme.m-mobile .subsection section:nth-child(even) {
