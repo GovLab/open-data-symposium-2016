@@ -7489,14 +7489,15 @@ a.inline {
   overflow-y: auto; }
 
 caption a {
-  color: #47a6b3; }
+  color: #243747; }
 
 caption a:hover {
-  color: #307078;
+  color: #090d11;
   text-decoration: none; }
 
 .paper {
-  color: #47a6b3; }
+  color: #47a6b3;
+  font-weight: 700; }
 
 .paper:hover {
   text-decoration: none;
