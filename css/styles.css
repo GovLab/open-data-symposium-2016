@@ -7443,7 +7443,7 @@ table.programme {
   .programme.m-mobile div {
     padding: 10px; }
   .programme.m-mobile .subsection section:nth-child(even) {
-    background-color: #e0e9f0; }
+    background-color: rgba(0, 0, 0, 0.05); }
   .programme.m-mobile .time {
     background-color: rgba(0, 0, 0, 0.05); }
   .programme.m-mobile .header {
@@ -7489,10 +7489,10 @@ a.inline {
   overflow-y: auto; }
 
 caption a {
-  color: #243747; }
+  color: #47a6b3; }
 
 caption a:hover {
-  color: #090d11;
+  color: #307078;
   text-decoration: none; }
 
 .paper {
