@@ -362,5 +362,7 @@ a.inline {
   overflow-y: auto;
 }
 
-caption { a { color: $odrs-green; } a:hover { color: darken($odrs-green, 10%); text-decoration: none; }}
+caption { a { color: $odrs-green; } a:hover { color: darken($odrs-green, 16); text-decoration: none; }}
 
+.paper { color: $odrs-green; }
+.paper:hover { text-decoration: none; color: darken($odrs-green, 16);}
