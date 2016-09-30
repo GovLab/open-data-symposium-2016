@@ -7492,8 +7492,15 @@ caption a {
   color: #47a6b3; }
 
 caption a:hover {
-  color: #39848e;
+  color: #307078;
   text-decoration: none; }
+
+.paper {
+  color: #47a6b3; }
+
+.paper:hover {
+  text-decoration: none;
+  color: #307078; }
 
 .cocktails {
   color: #47a6b3;
