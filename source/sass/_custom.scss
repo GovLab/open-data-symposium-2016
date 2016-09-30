@@ -302,7 +302,7 @@ table.programme {
   }
   .subsection {
     section:nth-child(even) {
-      background-color: lighten($dark-blue, 70%);
+      background-color: rgba(0, 0, 0, 0.05);//lighten($dark-blue, 70%);
     }
   }
   .time {
@@ -362,7 +362,7 @@ a.inline {
   overflow-y: auto;
 }
 
-caption { a { color: $dark-blue; } a:hover { color: darken($dark-blue, 16); text-decoration: none; }}
+caption { a { color: $odrs-green; } a:hover { color: darken($odrs-green, 16); text-decoration: none; }}
 
 .paper { color: $odrs-green; font-weight: 700;}
 .paper:hover { text-decoration: none; color: darken($odrs-green, 16);}
