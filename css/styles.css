@@ -7437,6 +7437,8 @@ table.programme {
   display: block; }
   .programme.m-mobile a {
     color: #47a6b3; }
+  .programme.m-mobile .event p {
+    margin-bottom: 16px; }
   .programme.m-mobile a:hover {
     color: #39848e;
     text-decoration: none; }
@@ -7502,6 +7504,9 @@ caption a:hover {
 .paper:hover {
   text-decoration: none;
   color: #307078; }
+
+.event p {
+  margin-bottom: 16px; }
 
 .cocktails {
   color: #47a6b3;
