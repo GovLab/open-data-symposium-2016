@@ -295,6 +295,12 @@ table.programme {
 .programme.m-mobile {
   a { color: $odrs-green; } 
 
+  .event {
+    p {
+      margin-bottom: 16px;
+    }
+  }
+
   a:hover { color: darken($odrs-green, 10%); text-decoration: none; }
   
   div {
@@ -366,3 +372,9 @@ caption { a { color: $odrs-green; } a:hover { color: darken($odrs-green, 16); te
 
 .paper { color: $odrs-green; font-weight: 700;}
 .paper:hover { text-decoration: none; color: darken($odrs-green, 16);}
+
+.event {
+  p {
+    margin-bottom: 16px;
+  }
+}
