@@ -293,7 +293,7 @@ table.programme {
 }
 
 .programme.m-mobile {
-  a { color: $odrs-green; } 
+  a { color: $odrs-green; }
 
   .event {
     p {
@@ -302,7 +302,7 @@ table.programme {
   }
 
   a:hover { color: darken($odrs-green, 10%); text-decoration: none; }
-  
+
   div {
     padding: 10px;
   }
@@ -376,5 +376,22 @@ caption { a { color: $odrs-green; } a:hover { color: darken($odrs-green, 16); te
 .event {
   p {
     margin-bottom: 16px;
+  }
+}
+
+.sticky {
+  background-color: rgba(0, 0, 0, 0.8);
+  h3 {
+    font-size: 28px;
+    font-weight: 800;
+  }
+  img {
+    margin-right: 40px;
+    max-height: 150px;
+    float: left;
+  }
+  p {
+    font-size: 19px;
+    max-width: 800px;
   }
 }
