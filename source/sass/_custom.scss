@@ -119,7 +119,7 @@ main{
 }
 
 .b-committee {
-  ul { padding: 0; }
+  // ul { padding: 0; }
   li {
     list-style-type: none;
     margin-bottom: 15px;
@@ -394,4 +394,10 @@ caption { a { color: $odrs-green; } a:hover { color: darken($odrs-green, 16); te
     font-size: 19px;
     max-width: 800px;
   }
+}
+
+.heading-small {
+  font-size: 0.9rem;
+  font-weight: normal;
+  padding-top: 20px;
 }
