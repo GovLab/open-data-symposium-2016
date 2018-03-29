@@ -7205,7 +7205,7 @@ code.m-negative {
   background-color: #243747; }
 
 .m-yellow {
-  background-color: #e3cc59; }
+  background-color: #88B04B; }
 
 .m-green {
   background-color: #47a6b3; }
@@ -7217,13 +7217,13 @@ code.m-negative {
   color: white; }
 
 .b-divider.m-yellow h1 {
-  color: #837116; }
+  color: #303e1a; }
 
 .b-divider.m-yellow h2 {
-  color: #837116; }
+  color: #303e1a; }
 
 .b-divider.m-yellow h3 {
-  color: #837116; }
+  color: #303e1a; }
 
 main {
   min-height: 100vh; }
@@ -7314,7 +7314,7 @@ main {
   color: black; }
 
 #home-abstract-button:hover, #home-question-button:hover, .index-odrs-twitter-link:hover {
-  color: #837116; }
+  color: #303e1a; }
 
 .odrs-announcement {
   text-align: center; }
@@ -7330,7 +7330,7 @@ main {
   text-decoration: none !important; }
 
 .contactus-link:hover, .contactus-email:hover, .question-odrs-twitter-link:hover, .odrs-2015-link:hover, .iodc-link:hover {
-  color: #837116; }
+  color: #303e1a; }
 
 .confirmation-section-header, .confirmation-section-body {
   text-align: center; }
@@ -7547,7 +7547,7 @@ caption a:hover {
     .b-timeline-list .e-event:nth-child(even) {
       background-color: rgba(0, 0, 0, 0.1); }
     .b-timeline-list .e-event.m-current {
-      background-color: #e3cc59; }
+      background-color: #88B04B; }
 
 .b-timeline {
   display: none;
@@ -7566,7 +7566,7 @@ caption a:hover {
     vertical-align: top;
     border-left: solid 2px rgba(0, 0, 0, 0.4); }
     .b-timeline .e-event.m-current {
-      border-left: solid 2px #e3cc59; }
+      border-left: solid 2px #88B04B; }
     .b-timeline .e-event .e-description {
       display: block; }
     .b-timeline .e-event time {
@@ -7633,10 +7633,10 @@ caption a:hover {
         border-left: 20px solid rgba(0, 0, 0, 0.4);
         border-top: 20px solid rgba(0, 0, 0, 0.4); }
       .b-timeline .e-timeline-graphic .e-timebox.m-current {
-        background-color: #e3cc59; }
+        background-color: #88B04B; }
         .b-timeline .e-timeline-graphic .e-timebox.m-current + .e-timebox::after {
-          border-left: 20px solid #e3cc59;
-          border-top: 20px solid #e3cc59; }
+          border-left: 20px solid #88B04B;
+          border-top: 20px solid #88B04B; }
 
 table tbody {
   border: 0px #FFFFFF; }
