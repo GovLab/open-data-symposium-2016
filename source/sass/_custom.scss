@@ -332,9 +332,26 @@ a.inline {
   color: #47a6b3;
 }
 
+
+.b-fold {
+  display: block;
+  margin: 0 auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -37px;
+  text-align: center;
+}
+
 .b-button {
   &.m-ex-space {
     margin: 10px;
+  }
+  &.m-fold-button-simple {
+    background-color: $odrs-green;
+    &:hover {
+      background-color: darken($odrs-green, 10%);
+    }
   }
   &.m-fold-button {
     display: block;

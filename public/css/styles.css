@@ -7459,8 +7459,22 @@ a.inline {
   font-weight: 700;
   color: #47a6b3; }
 
+.b-fold {
+  display: block;
+  margin: 0 auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -37px;
+  text-align: center; }
+
 .b-button.m-ex-space, .b-form input.m-ex-space[type="submit"] {
   margin: 10px; }
+
+.b-button.m-fold-button-simple, .b-form input.m-fold-button-simple[type="submit"] {
+  background-color: #47a6b3; }
+  .b-button.m-fold-button-simple:hover, .b-form input.m-fold-button-simple[type="submit"]:hover {
+    background-color: #39848e; }
 
 .b-button.m-fold-button, .b-form input.m-fold-button[type="submit"] {
   display: block;
