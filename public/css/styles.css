@@ -7424,8 +7424,6 @@ table.programme {
     background-color: transparent; }
   table.programme .sub-table {
     padding: 0; }
-    table.programme .sub-table > table tr:first-child td {
-      font-weight: 700; }
   @media screen and (min-width: 64.0625em) {
     table.programme {
       display: table; } }
