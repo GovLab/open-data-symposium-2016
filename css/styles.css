@@ -7535,6 +7535,12 @@ caption a:hover {
   font-weight: normal;
   padding-top: 20px; }
 
+table a {
+  color: #47a6b3; }
+  table a:hover {
+    color: #307078;
+    text-decoration: none; }
+
 .cocktails {
   color: #47a6b3;
   transition: all .4s ease; }
