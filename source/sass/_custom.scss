@@ -419,3 +419,13 @@ caption { a { color: $odrs-green; } a:hover { color: darken($odrs-green, 16); te
   font-weight: normal;
   padding-top: 20px;
 }
+
+table {
+  a {
+    color: #47a6b3;
+    &:hover {
+      color: rgb(48, 112, 120);
+      text-decoration: none;
+    }
+  }
+}
